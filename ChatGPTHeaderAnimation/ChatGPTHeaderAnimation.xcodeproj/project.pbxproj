@@ -12,6 +12,8 @@
 		E42566012B0EFEA1004D7F1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E42566002B0EFEA1004D7F1E /* Preview Assets.xcassets */; };
 		E42566122B0F24C5004D7F1E /* CustomPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E425660F2B0F24C5004D7F1E /* CustomPickerView.swift */; };
 		E42566142B0F24C5004D7F1E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42566112B0F24C5004D7F1E /* MainView.swift */; };
+		E4B47C2F2B0F3CE400C7D402 /* PickerHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B47C2E2B0F3CE400C7D402 /* PickerHeaderView.swift */; };
+		E4B47C312B0F3D5F00C7D402 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B47C302B0F3D5F00C7D402 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		E42566002B0EFEA1004D7F1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E425660F2B0F24C5004D7F1E /* CustomPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerView.swift; sourceTree = "<group>"; };
 		E42566112B0F24C5004D7F1E /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E4B47C2E2B0F3CE400C7D402 /* PickerHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerHeaderView.swift; sourceTree = "<group>"; };
+		E4B47C302B0F3D5F00C7D402 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 				E42565F92B0EFE9F004D7F1E /* ChatGPTHeaderAnimationApp.swift */,
 				E42566112B0F24C5004D7F1E /* MainView.swift */,
 				E425660F2B0F24C5004D7F1E /* CustomPickerView.swift */,
+				E4B47C302B0F3D5F00C7D402 /* ContentView.swift */,
+				E4B47C2E2B0F3CE400C7D402 /* PickerHeaderView.swift */,
 				E42565FD2B0EFEA1004D7F1E /* Assets.xcassets */,
 				E42565FF2B0EFEA1004D7F1E /* Preview Content */,
 			);
@@ -141,8 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E42566142B0F24C5004D7F1E /* MainView.swift in Sources */,
+				E4B47C312B0F3D5F00C7D402 /* ContentView.swift in Sources */,
 				E42566122B0F24C5004D7F1E /* CustomPickerView.swift in Sources */,
 				E42565FA2B0EFE9F004D7F1E /* ChatGPTHeaderAnimationApp.swift in Sources */,
+				E4B47C2F2B0F3CE400C7D402 /* PickerHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
